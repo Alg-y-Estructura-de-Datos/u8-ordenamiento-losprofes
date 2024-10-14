@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ej3.dir/medicionEficiencia.cpp.obj"
-  "CMakeFiles/Ej3.dir/medicionEficiencia.cpp.obj.d"
+  "CMakeFiles/Ej3.dir/Ej3.cpp.obj"
+  "CMakeFiles/Ej3.dir/Ej3.cpp.obj.d"
   "Ej3.exe"
   "Ej3.exe.manifest"
   "Ej3.pdb"

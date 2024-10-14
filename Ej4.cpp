@@ -6,21 +6,28 @@
 
 using namespace std;
 
-// Función para aplicar Bubble Sort
-unsigned long long bubbleSort(vector<int> &arr) {
+// Función para aplicar Shell Sort y contar comparaciones
+unsigned long long shellSort(vector<int> &arr) {
     unsigned long long contadorComparaciones = 0;
     int n = arr.size();
-    for (int i = 0; i < n - 1; i++) {
-        contadorComparaciones++;
 
-        for (int j = 0; j < n - i - 1; j++) {
-            contadorComparaciones++;
-            contadorComparaciones++;
-            if (arr[j] > arr[j + 1]) {
-                swap(arr[j], arr[j + 1]);
+    // Comienza con un "gap" (intervalo) grande y lo reduce
+    for (int gap = n / 2; gap > 0; gap /= 2) {
+        for (int i = gap; i < n; i++) {
+            int temp = arr[i];
+            int j;
+
+            // Realizar comparaciones en intervalos de "gap"
+            for (j = i; j >= gap && arr[j - gap] > temp; j -= gap) {
+                arr[j] = arr[j - gap];
+                contadorComparaciones++;  // Cuenta cada comparación exitosa
             }
+            arr[j] = temp;
+            contadorComparaciones++;  // Cuenta la comparación fallida que sale del ciclo
         }
+        contadorComparaciones++;
     }
+
     return contadorComparaciones;
 }
 
@@ -47,24 +54,21 @@ int main() {
         }
         file.close();
 
-        // Mostrar el array antes de ordenar
-//        cout << "Array desordenado: ";
-//        printArray(arr);
-
-        // Aplicar Bubble Sort
-        unsigned long long cantidadCondicionales  = bubbleSort(arr);
-        cout << "Cantidad de comparaciones numeros al Azar: " << cantidadCondicionales << endl;
+        // Aplicar Shell Sort
+        unsigned long long cantidadComparaciones = shellSort(arr);
+        cout << "Cantidad de comparaciones numeros al Azar: " << cantidadComparaciones << endl;
         // Mostrar el array ordenado
-        cout << "Array ordenado: "<< endl;
-//        printArray(arr);
-//
+        cout << "Array ordenado: ";
+        // printArray(arr);
+
     } else {
         cout << "No se pudo abrir el archivo." << endl;
     }
 
+    // Leer y ordenar el segundo archivo
     ifstream file2("numerosOrdenados.txt");
+    arr.clear();
     if (file2.is_open()) {
-        // Leer el archivo y extraer los números
         while (getline(file2, line, ',')) {
             stringstream ss(line);
             int num;
@@ -73,24 +77,21 @@ int main() {
         }
         file2.close();
 
-        // Mostrar el array antes de ordenar
-//        cout << "Array desordenado: ";
-//        printArray(arr);
-
-        // Aplicar Bubble Sort
-        unsigned long long cantidadCondicionales  = bubbleSort(arr);
-        cout << "Cantidad de comparaciones numeros ordenados: " << cantidadCondicionales << endl;
+        // Aplicar Shell Sort
+        unsigned long long cantidadComparaciones = shellSort(arr);
+        cout << "Cantidad de comparaciones numeros ordenados: " << cantidadComparaciones << endl;
         // Mostrar el array ordenado
-        cout << "Array ordenado: "<< endl;
-//        printArray(arr);
-//
+        cout << "Array ordenado: ";
+        //printArray(arr);
+
     } else {
         cout << "No se pudo abrir el archivo." << endl;
     }
 
+    // Leer y ordenar el tercer archivo
     ifstream file3("numerosInversa.txt");
+    arr.clear();
     if (file3.is_open()) {
-        // Leer el archivo y extraer los números
         while (getline(file3, line, ',')) {
             stringstream ss(line);
             int num;
@@ -99,17 +100,13 @@ int main() {
         }
         file3.close();
 
-        // Mostrar el array antes de ordenar
-//        cout << "Array desordenado: ";
-//        printArray(arr);
-
-        // Aplicar Bubble Sort
-        unsigned long long cantidadCondicionales  = bubbleSort(arr);
-        cout << "Cantidad de comparaciones numeros ordenados: " << cantidadCondicionales << endl;
+        // Aplicar Shell Sort
+        unsigned long long cantidadComparaciones = shellSort(arr);
+        cout << "Cantidad de comparaciones numeros en orden inverso: " << cantidadComparaciones << endl;
         // Mostrar el array ordenado
-        cout << "Array ordenado: "<< endl;
-//        printArray(arr);
-//
+        cout << "Array ordenado: ";
+        //printArray(arr);
+
     } else {
         cout << "No se pudo abrir el archivo." << endl;
     }
@@ -117,7 +114,8 @@ int main() {
     return 0;
 }
 
-/* (Descomentar para proar segunda parte
+
+/* (descomentar para segunda parte)
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -169,22 +167,29 @@ vector<Partido> leerArchivoCSV(const string& nombreArchivo) {
     archivo.close();
     return partidos;
 }
-// Algoritmo de Bubble Sort con contador de comparaciones
-template<typename T, typename Comparator>
-unsigned long long bubbleSort(vector<T>& arr, Comparator comparar) {
-    int size = arr.size();
-    int contadorComparaciones = 0; // Contador de comparaciones
 
-    for (int i = 0; i < size - 1; i++) {
-        contadorComparaciones++; // Incrementar contador de comparaciones
-        for (int j = 0; j < size - i - 1; j++) {
-            contadorComparaciones++; // Incrementar contador de comparaciones
-            contadorComparaciones++; // Incrementar contador de comparaciones
-            // Usar el comparator para decidir si se debe intercambiar
-            if (comparar(arr[j + 1], arr[j])) {
-                swap(arr[j], arr[j + 1]);
+// Algoritmo de Shell Sort con contador de comparaciones
+template<typename T, typename Comparator>
+unsigned long long shellSort(vector<T>& arr, Comparator comparar) {
+    int size = arr.size();
+    unsigned long long contadorComparaciones = 0; // Contador de comparaciones
+
+    // Gap empieza en size/2 y se divide a la mitad en cada iteración
+    for (int gap = size / 2; gap > 0; gap /= 2) {
+        for (int i = gap; i < size; i++) {
+            T temp = arr[i];
+            int j;
+
+            // Desplazar los elementos ordenados por el gap
+            for (j = i; j >= gap && comparar(temp, arr[j - gap]); j -= gap) {
+                arr[j] = arr[j - gap];
+                contadorComparaciones++; // Incrementar contador de comparaciones
             }
+
+            arr[j] = temp;
+            contadorComparaciones++; // Comparación final para salida del bucle
         }
+        contadorComparaciones++;
     }
 
     return contadorComparaciones; // Retornar la cantidad de comparaciones
@@ -206,27 +211,25 @@ int main() {
         return 1;
     }
 
-//    cout << "Partidos antes de ordenar:\n";
-//    imprimirPartidos(partidos);
-
-    unsigned long long condicionales = bubbleSort(partidos, [](const Partido& a, const Partido& b) {
+    // Ordenar por goles locales usando Shell Sort
+    unsigned long long condicionales = shellSort(partidos, [](const Partido& a, const Partido& b) {
         return a.golesLocal < b.golesLocal;
     });
 
-
     cout << "\nPartidos después de ordenar por goles locales:\n";
     cout << "\nCantidad de condicionales:\n" << condicionales << endl;
-   // imprimirPartidos(partidos);
+    // imprimirPartidos(partidos);
 
-   condicionales = bubbleSort(partidos, [](const Partido& a, const Partido& b) {
+    // Ordenar por goles visitantes usando Shell Sort
+    condicionales = shellSort(partidos, [](const Partido& a, const Partido& b) {
         return a.golesVisitante < b.golesVisitante;
     });
 
     cout << "\nPartidos después de ordenar por goles visitantes:\n";
     cout << "\nCantidad de condicionales:\n" << condicionales << endl;
-//    imprimirPartidos(partidos);
+    // imprimirPartidos(partidos);
 
     return 0;
 }
-
 */
+

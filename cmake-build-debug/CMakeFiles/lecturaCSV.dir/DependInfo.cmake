@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/lover/Desktop/codigoBaseV6.0/lecturaCSV.cpp" "CMakeFiles/lecturaCSV.dir/lecturaCSV.cpp.obj" "gcc" "CMakeFiles/lecturaCSV.dir/lecturaCSV.cpp.obj.d"
+  "C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/lecturaCSV.cpp" "CMakeFiles/lecturaCSV.dir/lecturaCSV.cpp.obj" "gcc" "CMakeFiles/lecturaCSV.dir/lecturaCSV.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

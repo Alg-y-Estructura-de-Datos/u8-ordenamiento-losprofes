@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\lover\Desktop\codigoBaseV6.0
+CMAKE_SOURCE_DIR = "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug\CMakeFiles C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug\CMakeFiles" "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -167,6 +167,32 @@ lecturaCSV/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lecturaCSV.dir\build.make CMakeFiles/lecturaCSV.dir/build
 .PHONY : lecturaCSV/fast
 
+#=============================================================================
+# Target rules for targets named Ej3
+
+# Build rule for target.
+Ej3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ej3
+.PHONY : Ej3
+
+# fast build rule for target.
+Ej3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej3.dir\build.make CMakeFiles/Ej3.dir/build
+.PHONY : Ej3/fast
+
+#=============================================================================
+# Target rules for targets named Ej4
+
+# Build rule for target.
+Ej4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ej4
+.PHONY : Ej4
+
+# fast build rule for target.
+Ej4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/build
+.PHONY : Ej4/fast
+
 Ej1.obj: Ej1.cpp.obj
 .PHONY : Ej1.obj
 
@@ -214,6 +240,54 @@ Ej2.s: Ej2.cpp.s
 Ej2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej2.dir\build.make CMakeFiles/Ej2.dir/Ej2.cpp.s
 .PHONY : Ej2.cpp.s
+
+Ej3.obj: Ej3.cpp.obj
+.PHONY : Ej3.obj
+
+# target to build an object file
+Ej3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej3.dir\build.make CMakeFiles/Ej3.dir/Ej3.cpp.obj
+.PHONY : Ej3.cpp.obj
+
+Ej3.i: Ej3.cpp.i
+.PHONY : Ej3.i
+
+# target to preprocess a source file
+Ej3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej3.dir\build.make CMakeFiles/Ej3.dir/Ej3.cpp.i
+.PHONY : Ej3.cpp.i
+
+Ej3.s: Ej3.cpp.s
+.PHONY : Ej3.s
+
+# target to generate assembly for a file
+Ej3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej3.dir\build.make CMakeFiles/Ej3.dir/Ej3.cpp.s
+.PHONY : Ej3.cpp.s
+
+Ej4.obj: Ej4.cpp.obj
+.PHONY : Ej4.obj
+
+# target to build an object file
+Ej4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/Ej4.cpp.obj
+.PHONY : Ej4.cpp.obj
+
+Ej4.i: Ej4.cpp.i
+.PHONY : Ej4.i
+
+# target to preprocess a source file
+Ej4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/Ej4.cpp.i
+.PHONY : Ej4.cpp.i
+
+Ej4.s: Ej4.cpp.s
+.PHONY : Ej4.s
+
+# target to generate assembly for a file
+Ej4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/Ej4.cpp.s
+.PHONY : Ej4.cpp.s
 
 lecturaCSV.obj: lecturaCSV.cpp.obj
 .PHONY : lecturaCSV.obj
@@ -273,6 +347,8 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Ej1
 	@echo ... Ej2
+	@echo ... Ej3
+	@echo ... Ej4
 	@echo ... lecturaCSV
 	@echo ... medicionEficiencia
 	@echo ... Ej1.obj
@@ -281,6 +357,12 @@ help:
 	@echo ... Ej2.obj
 	@echo ... Ej2.i
 	@echo ... Ej2.s
+	@echo ... Ej3.obj
+	@echo ... Ej3.i
+	@echo ... Ej3.s
+	@echo ... Ej4.obj
+	@echo ... Ej4.i
+	@echo ... Ej4.s
 	@echo ... lecturaCSV.obj
 	@echo ... lecturaCSV.i
 	@echo ... lecturaCSV.s

@@ -31,7 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/ProcessorCount.cmake"
-  "C:/Users/lover/Desktop/codigoBaseV6.0/CMakeLists.txt"
+  "C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeRCCompiler.cmake"
@@ -55,4 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Ej2.dir/DependInfo.cmake"
   "CMakeFiles/medicionEficiencia.dir/DependInfo.cmake"
   "CMakeFiles/lecturaCSV.dir/DependInfo.cmake"
+  "CMakeFiles/Ej3.dir/DependInfo.cmake"
+  "CMakeFiles/Ej4.dir/DependInfo.cmake"
   )

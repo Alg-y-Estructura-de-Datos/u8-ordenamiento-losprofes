@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/lover/Desktop/codigoBaseV6.0
+# Install script for directory: C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/lover/Desktop/codigoBaseV6.0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

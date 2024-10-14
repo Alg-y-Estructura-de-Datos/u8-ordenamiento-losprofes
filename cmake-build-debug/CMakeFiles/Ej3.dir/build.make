@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\lover\Desktop\codigoBaseV6.0
+CMAKE_SOURCE_DIR = "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Ej3.dir/depend.make
@@ -68,33 +68,33 @@ include CMakeFiles/Ej3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ej3.dir/flags.make
 
-CMakeFiles/Ej3.dir/medicionEficiencia.cpp.obj: CMakeFiles/Ej3.dir/flags.make
-CMakeFiles/Ej3.dir/medicionEficiencia.cpp.obj: C:/Users/lover/Desktop/codigoBaseV6.0/medicionEficiencia.cpp
-CMakeFiles/Ej3.dir/medicionEficiencia.cpp.obj: CMakeFiles/Ej3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ej3.dir/medicionEficiencia.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ej3.dir/medicionEficiencia.cpp.obj -MF CMakeFiles\Ej3.dir\medicionEficiencia.cpp.obj.d -o CMakeFiles\Ej3.dir\medicionEficiencia.cpp.obj -c C:\Users\lover\Desktop\codigoBaseV6.0\medicionEficiencia.cpp
+CMakeFiles/Ej3.dir/Ej3.cpp.obj: CMakeFiles/Ej3.dir/flags.make
+CMakeFiles/Ej3.dir/Ej3.cpp.obj: C:/Users/lover/Desktop/Personales/UCC/Prog\ 3/2024/u8-ordenamiento-losprofes/Ej3.cpp
+CMakeFiles/Ej3.dir/Ej3.cpp.obj: CMakeFiles/Ej3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ej3.dir/Ej3.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Ej3.dir/Ej3.cpp.obj -MF CMakeFiles\Ej3.dir\Ej3.cpp.obj.d -o CMakeFiles\Ej3.dir\Ej3.cpp.obj -c "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\Ej3.cpp"
 
-CMakeFiles/Ej3.dir/medicionEficiencia.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ej3.dir/medicionEficiencia.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lover\Desktop\codigoBaseV6.0\medicionEficiencia.cpp > CMakeFiles\Ej3.dir\medicionEficiencia.cpp.i
+CMakeFiles/Ej3.dir/Ej3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ej3.dir/Ej3.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\Ej3.cpp" > CMakeFiles\Ej3.dir\Ej3.cpp.i
 
-CMakeFiles/Ej3.dir/medicionEficiencia.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ej3.dir/medicionEficiencia.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lover\Desktop\codigoBaseV6.0\medicionEficiencia.cpp -o CMakeFiles\Ej3.dir\medicionEficiencia.cpp.s
+CMakeFiles/Ej3.dir/Ej3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ej3.dir/Ej3.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\Ej3.cpp" -o CMakeFiles\Ej3.dir\Ej3.cpp.s
 
 # Object files for target Ej3
 Ej3_OBJECTS = \
-"CMakeFiles/Ej3.dir/medicionEficiencia.cpp.obj"
+"CMakeFiles/Ej3.dir/Ej3.cpp.obj"
 
 # External object files for target Ej3
 Ej3_EXTERNAL_OBJECTS =
 
-Ej3.exe: CMakeFiles/Ej3.dir/medicionEficiencia.cpp.obj
+Ej3.exe: CMakeFiles/Ej3.dir/Ej3.cpp.obj
 Ej3.exe: CMakeFiles/Ej3.dir/build.make
 Ej3.exe: CMakeFiles/Ej3.dir/linkLibs.rsp
 Ej3.exe: CMakeFiles/Ej3.dir/objects1.rsp
 Ej3.exe: CMakeFiles/Ej3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ej3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ej3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Ej3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/Ej3.dir/clean:
 .PHONY : CMakeFiles/Ej3.dir/clean
 
 CMakeFiles/Ej3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\lover\Desktop\codigoBaseV6.0 C:\Users\lover\Desktop\codigoBaseV6.0 C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug C:\Users\lover\Desktop\codigoBaseV6.0\cmake-build-debug\CMakeFiles\Ej3.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes" "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes" "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug" "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug" "C:\Users\lover\Desktop\Personales\UCC\Prog 3\2024\u8-ordenamiento-losprofes\cmake-build-debug\CMakeFiles\Ej3.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Ej3.dir/depend
 

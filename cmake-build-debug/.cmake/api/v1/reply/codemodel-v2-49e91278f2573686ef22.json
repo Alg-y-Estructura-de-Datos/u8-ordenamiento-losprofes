@@ -18,7 +18,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -36,7 +38,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -54,6 +58,20 @@
 					"id" : "Ej2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Ej2-Debug-b773898a1b924cde650c.json",
 					"name" : "Ej2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej3-Debug-9e1963061cd91b1e2c88.json",
+					"name" : "Ej3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej4-Debug-ceba3b57595aac7691da.json",
+					"name" : "Ej4",
 					"projectIndex" : 0
 				},
 				{
@@ -76,8 +94,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/lover/Desktop/codigoBaseV6.0/cmake-build-debug",
-		"source" : "C:/Users/lover/Desktop/codigoBaseV6.0"
+		"build" : "C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug",
+		"source" : "C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes"
 	},
 	"version" : 
 	{
