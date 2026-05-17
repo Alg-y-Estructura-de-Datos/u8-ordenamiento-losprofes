@@ -48,42 +48,84 @@ using namespace std;
 //   - Para evitar el peor caso, se recomienda utilizar una estrategia mejorada de selección del pivote,
 //     como la "mediana de tres" o un pivote aleatorio.
 //
-void quickSort(int *arr, int inicio, int fin)
+
+// ---------------------------------------------------------
+// QUICK SORT CON CONTEO DE COMPARACIONES
+// Cuenta únicamente comparaciones entre elementos
+// ---------------------------------------------------------
+unsigned long long quickSort(int *arr, int inicio, int fin)
 {
+    unsigned long long comparaciones = 0;
+
     int i, j, medio;
     int pivot, aux;
 
     medio = (inicio + fin) / 2;
-    pivot = arr[medio]; // Se elige el pivote como el elemento medio
+    pivot = arr[medio];
+
     i = inicio;
     j = fin;
 
     do
     {
-        // Encuentra el primer elemento que debería ir a la derecha del pivote
-        while (arr[i] < pivot) i++;
-        // Encuentra el primer elemento que debería ir a la izquierda del pivote
-        while (arr[j] > pivot) j--;
+        // Comparaciones contra pivote
+        while (true)
+        {
+            comparaciones++;
 
-        // Intercambia los elementos si están en posiciones incorrectas
+            if (arr[i] < pivot)
+            {
+                i++;
+            }
+            else
+            {
+                break;
+            }
+        }
+
+        while (true)
+        {
+            comparaciones++;
+
+            if (arr[j] > pivot)
+            {
+                j--;
+            }
+            else
+            {
+                break;
+            }
+        }
+
+        comparaciones++;
+        // Intercambio
+
         if (i <= j)
         {
             aux = arr[i];
             arr[i] = arr[j];
             arr[j] = aux;
+
             i++;
             j--;
         }
+
     } while (i <= j);
 
-    // Ordena recursivamente las subporciones izquierda y derecha
+    // Recursividad izquierda
     if (inicio < j)
-        quickSort(arr, inicio, j); // Subarreglo izquierdo
+    {
+        comparaciones += quickSort(arr, inicio, j);
+    }
+
+    // Recursividad derecha
     if (i < fin)
-        quickSort(arr, i, fin);     // Subarreglo derecho
+    {
+        comparaciones += quickSort(arr, i, fin);
+    }
+
+    return comparaciones;
 }
-
-
 
 
 #endif // QUICKSORT_H_

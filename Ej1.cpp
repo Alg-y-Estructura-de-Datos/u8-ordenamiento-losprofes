@@ -1,5 +1,86 @@
 
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include "Algoritmos Ordenamiento/bubbleSort.h"
+
+void printArray(int *arr, int size) {
+
+    for (int i = 0; i < size; i++) {
+
+        cout << arr[i] << " ";
+    }
+
+    cout << endl;
+}
+
+int main() {
+
+    srand(time(NULL));
+
+    const int SIZE = 100;
+
+    int arr[SIZE];
+
+    // Autocompletar array con valores aleatorios
+    for (int i = 0; i < SIZE; i++) {
+
+        arr[i] = rand() % 1000;
+    }
+    cout << endl;
+    cout << "ARRAY DESORDENADO:" << endl;
+    printArray(arr, SIZE);
+
+    // Ejecutar Bubble Sort
+    unsigned long long comparaciones = bubbleSortOptimizado(arr, SIZE);
+
+    cout << "Cantidad de comparaciones ALEATORIO: "
+         << comparaciones << endl;
+    cout << endl;
+    cout << "ARRAY ORDENADO:" << endl;
+    printArray(arr, SIZE);
+
+
+    // Autocompletar array con valores ordenados - mejor caso
+    for (int i = 0; i < SIZE; i++) {
+
+        arr[i] = i;
+    }
+    cout << endl;
+    cout << "ARRAY DESORDENADO:" << endl;
+    printArray(arr, SIZE);
+    // Ejecutar Bubble Sort
+   comparaciones = bubbleSortOptimizado(arr, SIZE);
+
+    cout << "Cantidad de comparaciones MEJOR CASO: "
+         << comparaciones << endl;
+    cout << endl;
+    cout << "ARRAY ORDENADO:" << endl;
+    printArray(arr, SIZE);
+
+
+    // Autocompletar array con valores ordenados a la inversa - peor caso
+    for (int i = 0; i < SIZE; i++) {
+
+        arr[i] = SIZE-i-1;
+    }
+    cout << endl;
+    cout << "ARRAY DESORDENADO:" << endl;
+    printArray(arr, SIZE);
+    // Ejecutar Bubble Sort
+    comparaciones = bubbleSortOptimizado(arr, SIZE);
+
+    cout << "Cantidad de comparaciones PEOR CASO: "
+         << comparaciones << endl;
+    cout << endl;
+    cout << "ARRAY ORDENADO:" << endl;
+    printArray(arr, SIZE);
+
+    return 0;
+}
+
+#ifdef proyecto
+#include <iostream>
 #include <fstream>
 #include <sstream>
 #include <vector>
@@ -235,3 +316,4 @@ int main() {
     return 0;
 }
 */
+#endif

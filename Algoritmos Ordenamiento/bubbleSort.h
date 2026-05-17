@@ -25,22 +25,37 @@ using namespace std;
 //   Mejor caso: O(n), cuando el arreglo ya está ordenado (gracias //a la optimización de 'seguir').
 //
 //
-void bubbleSort(int *arr, int size) {
+
+unsigned long long bubbleSortOptimizado(int *arr, int size);
+
+unsigned long long bubbleSortOptimizado(int *arr, int size) {
+
     int aux;
     bool seguir = true;
 
+    unsigned long long comparaciones = 0;
+
     for (int i = 0; i < size - 1 && seguir; i++) {
+
         seguir = false;
-        for (int j = 0; j < size - i - 1; j++) // porque va al fondo, ya esta en el lugar que le corresponde
-        {
+
+        for (int j = 0; j < size - i - 1; j++) {
+
+            comparaciones++; // comparación del if
+
             if (arr[j] > arr[j + 1]) {
+
                 seguir = true;
+
                 aux = arr[j + 1];
                 arr[j + 1] = arr[j];
                 arr[j] = aux;
             }
         }
     }
+
+    return comparaciones;
 }
+
 
 #endif // BUBBLESORT_H_

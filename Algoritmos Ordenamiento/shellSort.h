@@ -40,22 +40,52 @@ using namespace std;
 //   - La elección de la secuencia de gaps puede influir significativamente en la eficiencia del algoritmo.
 //   - No es estable, lo que significa que no garantiza mantener el orden relativo de los elementos iguales.
 //
-void shellSort(int *arr, int size)
+
+// ---------------------------------------------------------
+// SHELL SORT CON CONTEO DE COMPARACIONES
+// Cuenta únicamente comparaciones entre elementos:
+//
+// arr[j - gap] > temp
+// ---------------------------------------------------------
+unsigned long long shellSort(int *arr, int size)
 {
-    // Se inicia con un gap inicial que es la mitad del tamaño del arreglo.
-    for (int gap = size / 2; gap > 0; gap /= 2) // gap se reduce dividiéndolo entre 2 en cada iteración
+    unsigned long long comparaciones = 0;
+
+    // El gap comienza siendo la mitad del tamaño
+    for (int gap = size / 2; gap > 0; gap /= 2)
     {
-        // Recorremos el arreglo desde el índice 'gap' hasta el final.
-        for (int i = gap; i < size; i += 1)
+        // Recorre el arreglo desde gap hasta el final
+        for (int i = gap; i < size; i++)
         {
-            int temp = arr[i]; // Guardamos el elemento actual en 'temp'.
+            // Elemento actual a insertar
+            int temp = arr[i];
+
             int j;
-            // Comparamos e intercambiamos elementos que están separados por 'gap'.
-            for (j = i; j >= gap && arr[j - gap] > temp; j -= gap)
-                arr[j] = arr[j - gap]; // Desplazamos los elementos hacia la derecha.
-            arr[j] = temp; // Colocamos el elemento guardado en la posición correcta.
+
+            // Inserción con salto gap
+            for (j = i; j >= gap; j -= gap)
+            {
+                // Comparación REAL entre elementos
+                comparaciones++;
+
+                if (arr[j - gap] > temp)
+                {
+                    // Desplaza elemento
+                    arr[j] = arr[j - gap];
+                }
+                else
+                {
+                    // Ya encontró posición correcta
+                    break;
+                }
+            }
+
+            // Inserta el elemento
+            arr[j] = temp;
         }
     }
+
+    return comparaciones;
 }
 
 

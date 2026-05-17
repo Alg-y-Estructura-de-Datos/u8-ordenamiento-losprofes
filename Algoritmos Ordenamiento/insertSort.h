@@ -32,27 +32,42 @@ using namespace std;
 // Desventajas:
 //   - No es eficiente para arreglos grandes o muy desordenados debido a su complejidad cuadrática.
 //
-void insertSort(int *arr, int size)
+
+// Insertion Sort con conteo de comparaciones
+unsigned long long insertSort(int *arr, int size)
 {
     int marcador, aux;
 
-    // Bucle comienza desde el segundo elemento (i = 1)
+    // Variable para contar comparaciones entre elementos
+    unsigned long long comparaciones = 0;
+
+    // Recorre el array desde la segunda posición
     for (int i = 1; i < size; i++)
     {
         marcador = i;
         aux = arr[i];
 
-        // Mueve los elementos mayores hacia la derecha
-        while (marcador > 0 && aux < arr[marcador - 1])
+        // Desplaza elementos mayores hacia la derecha
+        while (marcador > 0)
         {
-            arr[marcador] = arr[marcador - 1];
-            marcador--;
+            comparaciones++; // comparación: aux < arr[marcador - 1]
+
+            if (aux < arr[marcador - 1])
+            {
+                arr[marcador] = arr[marcador - 1];
+                marcador--;
+            }
+            else
+            {
+                break;
+            }
         }
-        // Inserta el elemento en su posición correcta
+
+        // Inserta el elemento en la posición correcta
         arr[marcador] = aux;
     }
+
+    return comparaciones;
 }
-
-
 
 #endif // INSERTSORT_H_

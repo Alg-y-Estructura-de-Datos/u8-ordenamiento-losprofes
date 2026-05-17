@@ -1,50 +1,139 @@
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include "Algoritmos Ordenamiento/quickSort.h"
+
+using namespace std;
+
+// ---------------------------------------------------------
+// Función para imprimir un array
+// ---------------------------------------------------------
+void printArray(int *arr, int size) {
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+
+    cout << endl;
+}
+
+// ---------------------------------------------------------
+// MAIN
+// ---------------------------------------------------------
+int main() {
+    srand(time(NULL));
+
+    const int SIZE = 100;
+
+    // =====================================================
+    // ARRAY ALEATORIO
+    // =====================================================
+    int aleatorio[SIZE];
+
+    for (int i = 0; i < SIZE; i++) {
+        aleatorio[i] = rand() % 1000;
+    }
+
+    cout << "========================================" << endl;
+    cout << "ARRAY ALEATORIO" << endl;
+    cout << "========================================" << endl;
+
+    cout << "Array original:" << endl;
+    printArray(aleatorio, SIZE);
+
+    unsigned long long compAleatorio =
+            quickSort(aleatorio, 0, SIZE - 1);
+
+    cout << endl;
+    cout << "Array ordenado:" << endl;
+    printArray(aleatorio, SIZE);
+
+    cout << endl;
+    cout << "Comparaciones realizadas: "
+         << compAleatorio << endl;
+
+    cout << endl << endl;
+
+    // =====================================================
+    // ARRAY PEOR CASO
+    // =====================================================
+    int peorCasoPivotCentral[100] = {
+            50,
+            25, 75,
+            12, 37, 62, 87,
+            6, 18, 31, 43, 56, 68, 81, 93,
+            3, 9, 15, 21, 28, 34, 40, 46,
+            53, 59, 65, 71, 78, 84, 90, 96,
+            1, 4, 7, 10, 13, 16, 19, 22,
+            26, 29, 32, 35, 38, 41, 44, 47,
+            51, 54, 57, 60, 63, 66, 69, 72,
+            76, 79, 82, 85, 88, 91, 94, 97,
+            2, 5, 8, 11, 14, 17, 20, 23,
+            27, 30, 33, 36, 39, 42, 45, 48,
+            52, 55, 58, 61, 64, 67, 70, 73,
+            77, 80, 83, 86, 89, 92, 95, 98,
+            24, 49, 74, 99, 100
+    };
+
+    cout << "========================================" << endl;
+    cout << "ARRAY ORDENADO PARA PEOR CASO" << endl;
+    cout << "========================================" << endl;
+
+    cout << "Array original:" << endl;
+    printArray(peorCasoPivotCentral, SIZE);
+
+    unsigned long long comPeorCaso =
+            quickSort(peorCasoPivotCentral, 0, SIZE - 1);
+
+    cout << endl;
+    cout << "Array ordenado:" << endl;
+    printArray(peorCasoPivotCentral, SIZE);
+
+    cout << endl;
+    cout << "Comparaciones realizadas: "
+         << comPeorCaso << endl;
+
+    cout << endl << endl;
+
+    // =====================================================
+    // ARRAY ASCENDENTE
+    // =====================================================
+    int ascendente[SIZE];
+
+    int valor = SIZE;
+
+    for (int i = 0; i < SIZE; i++) {
+        ascendente[i] = i;
+    }
+
+    cout << "========================================" << endl;
+    cout << "ARRAY ORDENADO ASCENDENTE- MEJOR CASO" << endl;
+    cout << "========================================" << endl;
+
+    cout << "Array original:" << endl;
+    printArray(ascendente, SIZE);
+
+    unsigned long long compAscendente =
+            quickSort(ascendente, 0, SIZE - 1);
+
+    cout << endl;
+    cout << "Array ordenado:" << endl;
+    printArray(ascendente, SIZE);
+
+    cout << endl;
+    cout << "Comparaciones realizadas: "
+         << compAscendente << endl;
+
+    return 0;
+}
+
+#ifdef proyecto
+
+#include <iostream>
 #include <fstream>
 #include <sstream>
 #include <vector>
 
 using namespace std;
-
-// Función para aplicar QuickSort y contar comparaciones
-unsigned long long quickSort(vector<int> &arr, int inicio, int fin) {
-    unsigned long long contadorComparaciones = 0;
-    if (inicio < fin) {
-        contadorComparaciones++;
-
-        int i = inicio, j = fin;
-        int pivot = arr[(inicio + fin) / 2];
-
-        contadorComparaciones++;
-        while (i <= j) {
-
-            contadorComparaciones++;
-            while (arr[i] < pivot) {
-                i++;
-
-            }
-
-            contadorComparaciones++;
-            while (arr[j] > pivot) {
-                j--;
-
-            }
-
-            contadorComparaciones++;
-            if (i <= j) {
-                swap(arr[i], arr[j]);
-                i++;
-                j--;
-            }
-
-        }
-
-        // Llamadas recursivas para las dos mitades
-        contadorComparaciones += quickSort(arr, inicio, j);
-        contadorComparaciones += quickSort(arr, i, fin);
-    }
-    return contadorComparaciones;
-}
-
 // Función para mostrar el array
 void printArray(const vector<int> &arr) {
     for (int num : arr) {
@@ -255,3 +344,5 @@ int main() {
 }
 
 */
+
+#endif

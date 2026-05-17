@@ -1,3 +1,127 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include "Algoritmos Ordenamiento/shellSort.h"
+
+using namespace std;
+
+// ---------------------------------------------------------
+// Función para imprimir un array
+// ---------------------------------------------------------
+void printArray(int *arr, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    cout << endl;
+}
+
+// ---------------------------------------------------------
+// MAIN
+// ---------------------------------------------------------
+int main()
+{
+    srand(time(NULL));
+
+    const int SIZE = 100;
+
+    // =====================================================
+    // ARRAY ALEATORIO
+    // =====================================================
+    int aleatorio[SIZE];
+
+    for (int i = 0; i < SIZE; i++)
+    {
+        aleatorio[i] = rand() % 1000;
+    }
+
+    cout << "========================================" << endl;
+    cout << "ARRAY ALEATORIO" << endl;
+    cout << "========================================" << endl;
+
+    cout << "Array original:" << endl;
+    printArray(aleatorio, SIZE);
+
+    unsigned long long compAleatorio =
+            shellSort(aleatorio, SIZE);
+
+    cout << endl;
+    cout << "Array ordenado:" << endl;
+    printArray(aleatorio, SIZE);
+
+    cout << endl;
+    cout << "Comparaciones realizadas: "
+         << compAleatorio << endl;
+
+    cout << endl << endl;
+
+    // =====================================================
+    // ARRAY ASCENDENTE
+    // =====================================================
+    int ascendente[SIZE];
+
+    for (int i = 0; i < SIZE; i++)
+    {
+        ascendente[i] = i;
+    }
+
+    cout << "========================================" << endl;
+    cout << "ARRAY ASCENDENTE - mejor caso" << endl;
+    cout << "========================================" << endl;
+
+    cout << "Array original:" << endl;
+    printArray(ascendente, SIZE);
+
+    unsigned long long compAscendente =
+            shellSort(ascendente, SIZE);
+
+    cout << endl;
+    cout << "Array ordenado:" << endl;
+    printArray(ascendente, SIZE);
+
+    cout << endl;
+    cout << "Comparaciones realizadas: "
+         << compAscendente << endl;
+
+    cout << endl << endl;
+
+    // =====================================================
+    // ARRAY DESCENDENTE
+    // =====================================================
+    int descendente[SIZE];
+
+    int valor = SIZE;
+
+    for (int i = 0; i < SIZE; i++)
+    {
+        descendente[i] = valor;
+        valor--;
+    }
+
+    cout << "========================================" << endl;
+    cout << "ARRAY DESCENDENTE - peor caso" << endl;
+    cout << "========================================" << endl;
+
+    cout << "Array original:" << endl;
+    printArray(descendente, SIZE);
+
+    unsigned long long compDescendente =
+            shellSort(descendente, SIZE);
+
+    cout << endl;
+    cout << "Array ordenado:" << endl;
+    printArray(descendente, SIZE);
+
+    cout << endl;
+    cout << "Comparaciones realizadas: "
+         << compDescendente << endl;
+
+    return 0;
+}
+
+#ifdef proyecto
 
 #include <iostream>
 #include <fstream>
@@ -232,4 +356,4 @@ int main() {
     return 0;
 }
 */
-
+#endif
