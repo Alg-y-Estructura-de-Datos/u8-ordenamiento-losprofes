@@ -13,12 +13,10 @@ unsigned long long bubbleSort(vector<int> &arr) {
     int n = arr.size();
     for (int i = 0; i < n - 1 && seguir; i++) {
         seguir = false;
-        contadorComparaciones++;
 
         for (int j = 0; j < n - i - 1; j++) {
-            contadorComparaciones++;
-            contadorComparaciones++;
 
+            contadorComparaciones++;
             if (arr[j] > arr[j + 1]) {
                 seguir = true;
                 swap(arr[j], arr[j + 1]);

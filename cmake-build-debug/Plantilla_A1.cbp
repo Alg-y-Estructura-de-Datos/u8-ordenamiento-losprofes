@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ej1">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Ej1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Ej1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej1"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej1"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ej1/fast">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Ej1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Ej1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,15 +55,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej1/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej1/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ej2">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Ej2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Ej2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,15 +77,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej2"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej2"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ej2/fast">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Ej2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Ej2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -99,15 +99,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej2/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej2/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="medicionEficiencia">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/medicionEficiencia.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/medicionEficiencia.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -121,15 +121,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 medicionEficiencia"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 medicionEficiencia"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="medicionEficiencia/fast">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/medicionEficiencia.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/medicionEficiencia.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -143,15 +143,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 medicionEficiencia/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 medicionEficiencia/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lecturaCSV">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/lecturaCSV.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/lecturaCSV.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -165,15 +165,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lecturaCSV"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lecturaCSV"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lecturaCSV/fast">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/lecturaCSV.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/lecturaCSV.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -187,15 +187,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lecturaCSV/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 lecturaCSV/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ej3">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Ej3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Ej3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -209,15 +209,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej3"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej3"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ej3/fast">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Ej3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Ej3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -231,15 +231,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej3/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej3/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ej4">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Ej4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Ej4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -253,15 +253,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej4"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej4"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ej4/fast">
-				<Option output="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Ej4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option output="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Ej4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -275,52 +275,52 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej4/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej4/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug"/>
+				<Option working_dir="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/lover/Desktop/u8-ordenamiento-losprofes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/Ej1.cpp">
+		<Unit filename="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/Ej1.cpp">
 			<Option target="Ej1"/>
 		</Unit>
-		<Unit filename="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/Ej2.cpp">
+		<Unit filename="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/Ej2.cpp">
 			<Option target="Ej2"/>
 		</Unit>
-		<Unit filename="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/Ej3.cpp">
+		<Unit filename="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/Ej3.cpp">
 			<Option target="Ej3"/>
 		</Unit>
-		<Unit filename="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/Ej4.cpp">
+		<Unit filename="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/Ej4.cpp">
 			<Option target="Ej4"/>
 		</Unit>
-		<Unit filename="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/lecturaCSV.cpp">
+		<Unit filename="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/lecturaCSV.cpp">
 			<Option target="lecturaCSV"/>
 		</Unit>
-		<Unit filename="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/medicionEficiencia.cpp">
+		<Unit filename="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/medicionEficiencia.cpp">
 			<Option target="medicionEficiencia"/>
 		</Unit>
-		<Unit filename="C:/Users/lover/Desktop/Personales/UCC/Prog 3/2024/u8-ordenamiento-losprofes/CMakeLists.txt">
+		<Unit filename="C:/Users/lover/Desktop/u8-ordenamiento-losprofes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

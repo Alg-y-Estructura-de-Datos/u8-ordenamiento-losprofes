@@ -10,24 +10,32 @@ unsigned long long quickSort(vector<int> &arr, int inicio, int fin) {
     unsigned long long contadorComparaciones = 0;
     if (inicio < fin) {
         contadorComparaciones++;
+
         int i = inicio, j = fin;
         int pivot = arr[(inicio + fin) / 2];
+
+        contadorComparaciones++;
         while (i <= j) {
+
+            contadorComparaciones++;
             while (arr[i] < pivot) {
                 i++;
-                contadorComparaciones++;
+
             }
+
+            contadorComparaciones++;
             while (arr[j] > pivot) {
                 j--;
-                contadorComparaciones++;
+
             }
+
             contadorComparaciones++;
             if (i <= j) {
                 swap(arr[i], arr[j]);
                 i++;
                 j--;
             }
-            contadorComparaciones++;
+
         }
 
         // Llamadas recursivas para las dos mitades

@@ -18,15 +18,13 @@ unsigned long long insertionSort(vector<int> &arr) {
 
         // Comparar y desplazar elementos
         while (marcador > 0 && aux < arr[marcador - 1]) {
+            contadorComparaciones++;  // Cuenta cada comparación en el while
             arr[marcador] = arr[marcador - 1];
             marcador--;
-            contadorComparaciones++;  // Cuenta cada comparación en el while
-            contadorComparaciones++;
         }
 
         // Inserción
         arr[marcador] = aux;
-        contadorComparaciones++;  // Cuenta la comparación fallida que sale del while
     }
 
     return contadorComparaciones;
